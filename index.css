@@ -1,0 +1,29 @@
+.header-container {
+  height: 50px;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.5);
+  background-color: white;
+
+  display: grid;
+  grid-template-columns: 100px 100px 1fr 350px;
+  padding: 0 100px;
+  align-items: center;
+}
+
+.search-container {
+  grid-column: 4 / 5;
+  height: 100%;
+
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.search-container input {
+  height: 25px;
+  width: 80%;
+}
+
+.search-container button {
+  height: 25px;
+}
