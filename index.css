@@ -27,3 +27,65 @@
 .search-container button {
   height: 25px;
 }
+
+.pop-up-menu {
+  position: relative;
+}
+
+.pop-up-menu .options {
+  position: absolute;
+
+  width: 100%;
+
+  background-color: white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.15s ease-in;
+}
+
+.pop-up-menu:hover .options {
+  visibility: visible;
+  opacity: 1;
+}
+
+.pop-up-menu .options option {
+  padding: 8px 16px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.pop-up-menu .options option:last-of-type {
+  border-bottom: none;
+}
+
+.pop-up-menu .options option:hover {
+  background-color: #57cdf5;
+  cursor: pointer;
+}
+
+main {
+  max-width: 800px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px 15px;
+  background-color: white;
+}
+
+img.left {
+  float: left;
+}
+
+.footer-container {
+  padding: 10px 15px;
+  background-color: white;
+  justify-self: flex-end;
+}
+
+.main-footer-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid red;
+}
