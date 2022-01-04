@@ -113,3 +113,38 @@ h1 ruby {
 rt {
   font-size: 10px;
 }
+
+.email {
+  color: blue;
+  font-style: italic;
+}
+
+.email:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.dotted-line {
+  border: none;
+  border-top: 4px dotted #f8e21a;
+  width: 100px;
+}
+
+.flex-shrink-only {
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.flex-grow-only {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.eating-pacman {
+  display: flex;
+  align-items: center;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}

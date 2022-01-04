@@ -92,5 +92,16 @@ img.left {
 .footer-container {
   padding: 10px 15px;
   background-color: white;
-  justify-self: flex-end;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.footer-container img {
+  width: 16px;
+  height: auto;
+
+  float: right;
 }
