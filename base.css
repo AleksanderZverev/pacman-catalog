@@ -82,3 +82,34 @@ button:active {
   content: "";
   clear: both;
 }
+
+.red {
+  color: #da3d3d;
+}
+
+.pink {
+  color: #f179fc;
+}
+
+.blue {
+  color: #00fff2;
+}
+
+.orange {
+  color: rgb(253, 165, 0);
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+
+h1 ruby {
+  font-size: 20px;
+}
+
+rt {
+  font-size: 10px;
+}
