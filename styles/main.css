@@ -4,13 +4,13 @@ main {
   max-width: 800px;
   width: 95%;
   margin: 10px auto;
-  padding: 10px 15px;
+  padding: 15px;
   background-color: white;
 }
 
 main article {
-  border-bottom: 1px solid #e5e5e5;
   padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 main article:last-of-type {
@@ -44,6 +44,7 @@ img.small {
 }
 
 h1 {
+  margin: 0;
   font-size: 24px;
   font-weight: 700;
 
