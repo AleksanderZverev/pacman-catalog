@@ -37,8 +37,6 @@ header {
 }
 
 .right-header-container {
-  height: 100%;
-
   display: flex;
   column-gap: 10px;
   align-items: center;
@@ -47,8 +45,4 @@ header {
 .right-header-container input {
   height: 26px;
   width: 80%;
-}
-
-.right-header-container button {
-  height: 24px;
 }

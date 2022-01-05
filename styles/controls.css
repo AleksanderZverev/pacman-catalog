@@ -14,23 +14,29 @@ input:focus {
   outline-offset: -2px;
 }
 
-button {
+button,
+.button {
   background-color: white;
   border: 1px solid #dddddd;
-  padding: 4px 12px;
-  height: 25px;
+  padding: 6px 12px;
 }
 
-button:hover {
+button:hover,
+.button:hover {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-button:active {
-  padding-top: 6px;
-  padding-bottom: 2px;
+button:active,
+.button:active {
+  padding-top: 8px;
+  padding-bottom: 4px;
 
   box-shadow: inset 1px 4px 6px -6px rgba(0, 0, 0, 0.7);
+}
+
+a.button {
+  text-decoration: none;
 }
 
 .pop-up-menu {

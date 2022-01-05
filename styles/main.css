@@ -10,19 +10,32 @@ main {
 
 main article {
   border-bottom: 1px solid #e5e5e5;
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 main article:last-of-type {
   border-bottom: none;
 }
 
+.article-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+article h2 {
+  font-size: 18px;
+}
+
 img.left {
   float: left;
+  margin-right: 10px;
 }
 
 img.right {
   float: right;
+  margin-left: 10px;
 }
 
 img.small {
