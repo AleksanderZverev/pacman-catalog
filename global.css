@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html * {
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu";
+  color: #333;
+  font-size: 15px;
+
+  box-sizing: content-box;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #f2f2f2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.red {
+  color: #da3d3d;
+}
+
+.pink {
+  color: #f179fc;
+}
+
+.blue {
+  color: #00fff2;
+}
+
+.orange {
+  color: #fda500;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}

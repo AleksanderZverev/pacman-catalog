@@ -1,0 +1,38 @@
+footer {
+  padding: 10px 15px;
+  background-color: white;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 5px;
+}
+
+footer img {
+  width: 16px;
+  height: auto;
+
+  float: right;
+}
+
+.email {
+  color: blue;
+  font-style: italic;
+}
+
+.email:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.dotted-line {
+  border: none;
+  border-top: 4px dotted #f8e21a;
+  width: 100px;
+}
+
+.eating-pacman {
+  display: flex;
+  align-items: center;
+}
