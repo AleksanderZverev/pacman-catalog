@@ -69,8 +69,10 @@ button:active {
   opacity: 1;
 }
 
-.pop-up-menu .options div {
+.pop-up-menu .options a {
   font-size: inherit;
+  text-decoration: none;
+  display: block;
 
   padding: 8px 16px;
   border-bottom: 1px solid #e5e5e5;
@@ -79,11 +81,11 @@ button:active {
   text-align: center;
 }
 
-.pop-up-menu .options div:last-of-type {
+.pop-up-menu .options a:last-of-type {
   border-bottom: none;
 }
 
-.pop-up-menu .options div:hover {
+.pop-up-menu .options a:hover {
   background-color: #57cdf5;
   cursor: pointer;
 }
