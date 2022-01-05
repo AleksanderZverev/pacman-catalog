@@ -39,11 +39,13 @@ button:active {
   text-align: center;
   font-size: 18px;
   min-width: 120px;
+  cursor: pointer;
 }
 
 .pop-up-menu label {
   font-size: inherit;
   font-weight: 600;
+  cursor: inherit;
 }
 
 .pop-up-menu img {
@@ -89,4 +91,13 @@ button:active {
 .pop-up-menu .options a:hover {
   background-color: #57cdf5;
   cursor: pointer;
+}
+
+.pop-up-menu .options a.disabled {
+  background-color: #e5e5e5;
+}
+
+.pop-up-menu .options a:hover.disabled {
+  background-color: #e5e5e5;
+  cursor: default;
 }
